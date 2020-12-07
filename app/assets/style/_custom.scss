@@ -1,0 +1,141 @@
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position:center
+}
+.nav-logo{
+    background: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/d%E2%80%99Perfume.png?raw=true) no-repeat center /cover;
+    width:128px;
+    height:38px;
+    display: block;
+    text-indent: 101%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.footer-logo{
+  width:128px;
+  height:38px;
+  display: block;
+}
+.header-cover{
+    background: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/index1.jpg?raw=true) no-repeat center /cover;
+    height:480px;
+    @include media-breakpoint-up(lg) {
+      height: 870px;
+    }
+    .header-txt{
+        color: $white;
+        top:295px;
+        left:0;
+    }
+}
+.footer-cover{
+  background:url(https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/index10.jpg?raw=true) no-repeat center center/cover;
+  height:600px;
+}
+
+.txt-area{
+    margin-bottom: 20px;
+    @include media-breakpoint-up(lg) {
+      margin-bottom: 52px;
+    }
+  }
+.img-cover{
+    background-image: url();
+    background-size: cover;
+    background-position: center center;
+}
+.intro-img{
+  height:350px;
+  @include media-breakpoint-up(lg) {
+    height: 555px;
+  }
+   &-lg{
+     height:680px;
+     @include media-breakpoint-up(lg) {
+      height: 1080px;
+    }
+   }
+}
+.oval-btn-white{
+  border-radius: 40px;
+  border:2px solid $white;
+  padding:13px 109px;
+  color: $white;
+  &:hover{
+      background-color: $white;
+      color:$secondary;
+      text-decoration: none;
+  }
+}
+.oval-btn-black{
+  border-radius: 40px;
+  border:2px solid $black;
+  padding:18px 53px 18px 51px ;
+  color: $black;
+  &:hover{
+      background-color: $secondary;
+      border:2px solid $secondary;
+      color:$white;
+      text-decoration: none;
+  }
+
+}
+.product-img-size{
+  width: 100%;
+  object-position: bottom;
+  height:350px;
+  @include media-breakpoint-up(lg) {
+    height: 540px;
+  }
+}
+.line-through{
+    text-decoration: line-through;
+}
+
+.product-list-center{
+  width: 100%;
+  object-position: center;
+  height:165px;
+  @include media-breakpoint-up(lg) {
+    height: 255px;
+  }
+}
+.product-list-bottom {
+  width: 100%;
+  object-position: bottom;
+  height:165px;
+  @include media-breakpoint-up(lg) {
+    height: 255px;
+  }
+}
+.product-list-left {
+  width: 100%;
+  object-position: left;
+  height:165px;
+  @include media-breakpoint-up(lg) {
+    height: 255px;
+  }
+}
+.login-image-size{
+  height:220px;
+  object-position:center;
+  @include media-breakpoint-up(lg) {
+    height: 740px;
+  }
+}
+input[type="checkbox"] {
+    border: #999 solid 1px;
+    border-radius: 3px;
+    min-height: 15px;
+    min-width: 15px;
+}
+.member-link{
+  &.active{
+    border-bottom:2px solid $primary;
+  }
+  &:hover{
+    border-bottom:2px solid $primary;
+  }
+}

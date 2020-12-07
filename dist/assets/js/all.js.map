@@ -1,0 +1,1 @@
+{"version":3,"sources":["all.js"],"names":["AOS","init","duration"],"mappings":";;AAAAA,GAAG,CAACC,IAAJ,CAAS;AACLC,EAAAA,QAAQ,EAAE;AADL,CAAT","file":"all.js","sourcesContent":["AOS.init({\n    duration: 3000,\n  })"]}
